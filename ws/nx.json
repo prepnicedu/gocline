@@ -1,0 +1,7 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "analytics": false,
+  "plugins": [
+    "@nx-go/nx-go"
+  ]
+}

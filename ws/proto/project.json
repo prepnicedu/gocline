@@ -1,0 +1,30 @@
+{
+    "name": "proto",
+    "$schema": "../node_modules/nx/schemas/project-schema.json",
+    "projectType": "library",
+    "sourceRoot": "proto",
+    "tags": [],
+    "targets": {
+        "generate": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "buf generate",
+                "cwd": "proto"
+            }
+        },
+        "lint": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "buf lint",
+                "cwd": "proto"
+            }
+        },
+        "update": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "buf dep update",
+                "cwd": "proto"
+            }
+        }
+    }
+}

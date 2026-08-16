@@ -1,0 +1,152 @@
+{
+  "version": "6.0",
+  "nxVersion": "23.1.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx-go/nx-go",
+      "version": "^4.1.1"
+    }
+  ],
+  "fileMap": {
+    "projectFileMap": {
+      "proto": [
+        {
+          "file": "proto/buf.gen.yaml",
+          "hash": "7371899156138592080"
+        },
+        {
+          "file": "proto/buf.lock",
+          "hash": "4391590953248330856"
+        },
+        {
+          "file": "proto/buf.yaml",
+          "hash": "11339609127354949359"
+        },
+        {
+          "file": "proto/project.json",
+          "hash": "2379462623124154565"
+        },
+        {
+          "file": "proto/user/v1/user.proto",
+          "hash": "5635931511600043098"
+        }
+      ],
+      "user-svc": [
+        {
+          "file": "services/user-svc/config/config.go",
+          "hash": "5910574681575609456"
+        },
+        {
+          "file": "services/user-svc/config/db.go",
+          "hash": "8035403333632132770"
+        },
+        {
+          "file": "services/user-svc/go.mod",
+          "hash": "7593093526910258153"
+        },
+        {
+          "file": "services/user-svc/go.sum",
+          "hash": "8917603779422615400"
+        },
+        {
+          "file": "services/user-svc/internal/domain.go",
+          "hash": "12674819496589981899"
+        },
+        {
+          "file": "services/user-svc/internal/repository.go",
+          "hash": "8604690163619705862"
+        },
+        {
+          "file": "services/user-svc/internal/service.go",
+          "hash": "16231438542264444024",
+          "deps": [
+            "go"
+          ]
+        },
+        {
+          "file": "services/user-svc/main.go",
+          "hash": "1044749201730290027",
+          "deps": [
+            "go"
+          ]
+        },
+        {
+          "file": "services/user-svc/project.json",
+          "hash": "7079142856761860246"
+        }
+      ],
+      "go": [
+        {
+          "file": "gen/go/go.mod",
+          "hash": "5402517958349390334"
+        },
+        {
+          "file": "gen/go/go.sum",
+          "hash": "368338280688335204"
+        },
+        {
+          "file": "gen/go/project.json",
+          "hash": "8707486154755046408"
+        },
+        {
+          "file": "gen/go/user/v1/user.pb.go",
+          "hash": "9342380979426088195"
+        },
+        {
+          "file": "gen/go/user/v1/user_grpc.pb.go",
+          "hash": "1583837980348163513"
+        },
+        {
+          "file": "gen/go/user/v1/userv1connect/user.connect.go",
+          "hash": "2554987907731986781"
+        }
+      ],
+      "bff-svc": [
+        {
+          "file": "services/bff-svc/go.mod",
+          "hash": "5423132657230354981"
+        },
+        {
+          "file": "services/bff-svc/main.go",
+          "hash": "7577877394514700259"
+        },
+        {
+          "file": "services/bff-svc/main_test.go",
+          "hash": "12780176229736183515"
+        },
+        {
+          "file": "services/bff-svc/project.json",
+          "hash": "14512065453461132038"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".env",
+        "hash": "4027531208799386848"
+      },
+      {
+        "file": "go.work",
+        "hash": "16967545523321267633"
+      },
+      {
+        "file": "go.work.sum",
+        "hash": "9308813278366806702"
+      },
+      {
+        "file": "nx.json",
+        "hash": "3645488460847014149"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "7932247544339316217"
+      },
+      {
+        "file": "package.json",
+        "hash": "1388925892521273710"
+      }
+    ]
+  },
+  "externalNodesHash": "11082814046046550651"
+}

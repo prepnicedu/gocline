@@ -1,0 +1,46 @@
+// ws/services/user-svc/internal/service.go
+package internal
+
+import (
+	"context"
+	"fmt"
+	userv1 "gen/go/user/v1"
+
+	"buf.build/go/protovalidate"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/status"
+)
+
+type Service struct {
+	userv1.UnimplementedUserServiceServer
+	repo *Repository
+	validator protovalidate.Validator
+}
+
+func NewService(repo *Repository) (*Service, error) {
+	v, err := protovalidate.New()
+	if err != nil {
+		return nil, fmt.Errorf("failed to initialize protovalidate: %w", err)
+	}
+	return &Service{
+		repo: repo,
+		validator: v,
+	}, nil
+}
+
+func (s *Service) CreateUser(
+	ctx context.Context,
+	req *userv1.CreateUserRequest,
+) (*userv1.CreateUserResponse, error) {
+	if err := s.validator.Validate(req); err != nil {
+		return nil, status.Errorf(codes.InvalidArgument, "invalid request: %v", err)
+	}
+	savedUser, err := s.repo.Create(ctx, User{Name: req.GetName()})
+	if err != nil {
+		return nil, fmt.Errorf("create user: %w", err)
+	}
+	return &userv1.CreateUserResponse{
+		Id:   savedUser.ID.Hex(),
+		Name: savedUser.Name,
+	}, nil
+}

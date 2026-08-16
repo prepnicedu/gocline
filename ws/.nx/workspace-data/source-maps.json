@@ -1,0 +1,1322 @@
+{
+  "gen/go": {
+    "root": [
+      "gen/go/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "gen/go/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "gen/go/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.executor": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.cache": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.0": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.1": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.2": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.3": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.4": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.5": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.6": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.technologies": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.description": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.help": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.help.command": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.help.example": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.executor": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.cache": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.0": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.1": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.2": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.3": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.4": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.5": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.6": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.technologies": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.description": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.help": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.help.command": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.help.example": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.executor": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.cache": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.0": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.1": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.2": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.3": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.4": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.5": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.6": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.outputs.0": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.outputs.1": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.outputs": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.technologies": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.technologies.0": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.description": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.help": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.help.command": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.help.example": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.executor": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.cache": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.0": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.1": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.2": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.3": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.4": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.5": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.6": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.technologies": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.technologies.0": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.description": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.help": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.help.command": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.help.example": [
+      "gen/go/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "$schema": [
+      "gen/go/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "gen/go/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "gen/go/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/bff-svc": {
+    "root": [
+      "services/bff-svc/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/bff-svc/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/bff-svc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.executor": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.cache": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.0": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.1": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.2": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.3": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.4": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.5": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.6": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.outputs.0": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.outputs": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata.technologies": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata.description": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata.help": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata.help.command": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata.help.example": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.executor": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.continuous": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata.technologies": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata.technologies.0": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata.description": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata.help": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata.help.command": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata.help.example": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.executor": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.cache": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.0": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.1": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.2": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.3": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.4": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.5": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.6": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.technologies": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.description": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.help": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.help.command": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.help.example": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.executor": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.cache": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.0": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.1": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.2": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.3": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.4": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.5": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.6": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.technologies": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.description": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.help": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.help.command": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.help.example": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.executor": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.cache": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.0": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.1": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.2": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.3": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.4": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.5": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.6": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.outputs.0": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.outputs.1": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.outputs": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.technologies": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.technologies.0": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.description": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.help": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.help.command": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.help.example": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.executor": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.cache": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.0": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.1": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.2": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.3": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.4": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.5": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.6": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.technologies": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.technologies.0": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.description": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.help": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.help.command": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.help.example": [
+      "services/bff-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "$schema": [
+      "services/bff-svc/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/bff-svc/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/bff-svc/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "services/user-svc": {
+    "root": [
+      "services/user-svc/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "services/user-svc/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/user-svc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.executor": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.cache": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.0": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.1": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.2": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.3": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.4": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.5": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs.6": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.inputs": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.outputs.0": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.outputs": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata.technologies": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata.description": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata.help": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata.help.command": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.build.metadata.help.example": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.executor": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.continuous": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata.technologies": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata.technologies.0": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata.description": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata.help": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata.help.command": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.serve.metadata.help.example": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.executor": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.cache": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.0": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.1": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.2": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.3": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.4": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.5": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.6": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.technologies": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.description": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.help": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.help.command": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.help.example": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.executor": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.cache": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.0": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.1": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.2": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.3": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.4": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.5": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.6": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.technologies": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.description": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.help": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.help.command": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.help.example": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.executor": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.cache": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.0": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.1": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.2": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.3": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.4": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.5": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.6": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.outputs.0": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.outputs.1": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.outputs": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.technologies": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.technologies.0": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.description": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.help": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.help.command": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.help.example": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.executor": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.cache": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.0": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.1": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.2": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.3": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.4": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.5": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.6": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.technologies": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.technologies.0": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.description": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.help": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.help.command": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.help.example": [
+      "services/user-svc/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "$schema": [
+      "services/user-svc/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/user-svc/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/user-svc/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "proto": {
+    "root": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.generate": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.generate.executor": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.generate.options.command": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.generate.options.cwd": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.generate.options": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.command": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.cwd": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.update": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.update.executor": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.update.options.command": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.update.options.cwd": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.update.options": [
+      "proto/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

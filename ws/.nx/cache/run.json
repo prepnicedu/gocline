@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx s user-svc",
+    "startTime": "2026-08-16T18:13:18.437Z",
+    "endTime": "2026-08-16T18:17:38.817Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "user-svc:serve",
+      "target": "serve",
+      "projectName": "user-svc",
+      "hash": "2274830281494221820",
+      "startTime": "2026-08-16T18:13:18.448Z",
+      "endTime": "2026-08-16T18:17:38.796Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

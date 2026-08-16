@@ -1,0 +1,1 @@
+Property 'commands' does not match the schema. 'buf lint' should be a 'array'.
