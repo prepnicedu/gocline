@@ -2,6 +2,7 @@ go 1.26
 
 use (
 	./gen/go
+	./pkg/grpc-client
 	./services/bff-svc
 	./services/user-svc
 )

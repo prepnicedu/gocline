@@ -329,6 +329,336 @@
       "nx/core/project-json"
     ]
   },
+  "pkg/grpc-client": {
+    "root": [
+      "pkg/grpc-client/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "pkg/grpc-client/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "pkg/grpc-client/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.executor": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.cache": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.0": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.1": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.2": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.3": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.4": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.5": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs.6": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.inputs": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.technologies": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.description": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.help": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.help.command": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.test.metadata.help.example": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.executor": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.cache": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.0": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.1": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.2": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.3": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.4": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.5": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs.6": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.inputs": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.technologies": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.description": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.help": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.help.command": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.lint.metadata.help.example": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.executor": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.cache": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.0": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.1": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.2": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.3": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.4": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.5": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs.6": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.inputs": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.outputs.0": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.outputs.1": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.outputs": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.technologies": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.technologies.0": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.description": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.help": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.help.command": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.tidy.metadata.help.example": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.executor": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.cache": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.0": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.1": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.2": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.3": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.4": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.5": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs.6": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.inputs": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.technologies": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.technologies.0": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.description": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.help": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.help.command": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "targets.generate.metadata.help.example": [
+      "pkg/grpc-client/go.mod",
+      "@nx-go/nx-go"
+    ],
+    "$schema": [
+      "pkg/grpc-client/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "pkg/grpc-client/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "pkg/grpc-client/project.json",
+      "nx/core/project-json"
+    ]
+  },
   "services/bff-svc": {
     "root": [
       "services/bff-svc/project.json",

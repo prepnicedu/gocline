@@ -10,26 +10,51 @@
   ],
   "fileMap": {
     "projectFileMap": {
-      "proto": [
+      "grpc-client": [
         {
-          "file": "proto/buf.gen.yaml",
-          "hash": "7371899156138592080"
+          "file": "pkg/grpc-client/go.mod",
+          "hash": "2478126388347604777"
         },
         {
-          "file": "proto/buf.lock",
-          "hash": "4391590953248330856"
+          "file": "pkg/grpc-client/grpc-client.go",
+          "hash": "9048255446874269797"
         },
         {
-          "file": "proto/buf.yaml",
-          "hash": "11339609127354949359"
+          "file": "pkg/grpc-client/http-server.go",
+          "hash": "11571529164995837120"
         },
         {
-          "file": "proto/project.json",
-          "hash": "2379462623124154565"
+          "file": "pkg/grpc-client/project.json",
+          "hash": "2841951602756704092"
+        }
+      ],
+      "bff-svc": [
+        {
+          "file": "services/bff-svc/config/config.go",
+          "hash": "3842511736208847020"
         },
         {
-          "file": "proto/user/v1/user.proto",
-          "hash": "5635931511600043098"
+          "file": "services/bff-svc/go.mod",
+          "hash": "5423132657230354981"
+        },
+        {
+          "file": "services/bff-svc/main.go",
+          "hash": "15764267998982147496",
+          "deps": [
+            "go",
+            "grpc-client"
+          ]
+        },
+        {
+          "file": "services/bff-svc/project.json",
+          "hash": "14512065453461132038"
+        },
+        {
+          "file": "services/bff-svc/service/user.go",
+          "hash": "881461941016014291",
+          "deps": [
+            "go"
+          ]
         }
       ],
       "user-svc": [
@@ -102,33 +127,37 @@
           "hash": "2554987907731986781"
         }
       ],
-      "bff-svc": [
+      "proto": [
         {
-          "file": "services/bff-svc/go.mod",
-          "hash": "5423132657230354981"
+          "file": "proto/buf.gen.yaml",
+          "hash": "7371899156138592080"
         },
         {
-          "file": "services/bff-svc/main.go",
-          "hash": "7577877394514700259"
+          "file": "proto/buf.lock",
+          "hash": "4391590953248330856"
         },
         {
-          "file": "services/bff-svc/main_test.go",
-          "hash": "12780176229736183515"
+          "file": "proto/buf.yaml",
+          "hash": "11339609127354949359"
         },
         {
-          "file": "services/bff-svc/project.json",
-          "hash": "14512065453461132038"
+          "file": "proto/project.json",
+          "hash": "2379462623124154565"
+        },
+        {
+          "file": "proto/user/v1/user.proto",
+          "hash": "5635931511600043098"
         }
       ]
     },
     "nonProjectFiles": [
       {
         "file": ".env",
-        "hash": "4027531208799386848"
+        "hash": "13654702422039642646"
       },
       {
         "file": "go.work",
-        "hash": "16967545523321267633"
+        "hash": "9374043252684178500"
       },
       {
         "file": "go.work.sum",

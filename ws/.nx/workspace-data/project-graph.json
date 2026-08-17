@@ -374,6 +374,139 @@
         "implicitDependencies": []
       }
     },
+    "grpc-client": {
+      "name": "grpc-client",
+      "type": "lib",
+      "data": {
+        "root": "pkg/grpc-client",
+        "name": "grpc-client",
+        "projectType": "library",
+        "targets": {
+          "test": {
+            "executor": "@nx-go/nx-go:test",
+            "cache": true,
+            "inputs": [
+              "{projectRoot}/go.mod",
+              "{projectRoot}/go.sum",
+              "{projectRoot}/**/*.go",
+              "{workspaceRoot}/go.mod",
+              "{workspaceRoot}/go.sum",
+              "{workspaceRoot}/go.work",
+              "{workspaceRoot}/go.work.sum"
+            ],
+            "metadata": {
+              "technologies": [
+                "go"
+              ],
+              "description": "Tests the Go project",
+              "help": {
+                "command": "go help test",
+                "example": {
+                  "options": {
+                    "cover": true
+                  }
+                }
+              }
+            },
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx-go/nx-go:lint",
+            "cache": true,
+            "inputs": [
+              "{projectRoot}/go.mod",
+              "{projectRoot}/go.sum",
+              "{projectRoot}/**/*.go",
+              "{workspaceRoot}/go.mod",
+              "{workspaceRoot}/go.sum",
+              "{workspaceRoot}/go.work",
+              "{workspaceRoot}/go.work.sum"
+            ],
+            "metadata": {
+              "technologies": [
+                "go"
+              ],
+              "description": "Lints the Go project",
+              "help": {
+                "command": "go help fmt",
+                "example": {}
+              }
+            },
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "tidy": {
+            "executor": "@nx-go/nx-go:tidy",
+            "cache": true,
+            "inputs": [
+              "{projectRoot}/go.mod",
+              "{projectRoot}/go.sum",
+              "{projectRoot}/**/*.go",
+              "{workspaceRoot}/go.mod",
+              "{workspaceRoot}/go.sum",
+              "{workspaceRoot}/go.work",
+              "{workspaceRoot}/go.work.sum"
+            ],
+            "outputs": [
+              "{projectRoot}/go.mod",
+              "{projectRoot}/go.sum"
+            ],
+            "metadata": {
+              "technologies": [
+                "go"
+              ],
+              "description": "Tidies the Go project dependencies",
+              "help": {
+                "command": "go help mod",
+                "example": {}
+              }
+            },
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "generate": {
+            "executor": "@nx-go/nx-go:generate",
+            "cache": true,
+            "inputs": [
+              "{projectRoot}/go.mod",
+              "{projectRoot}/go.sum",
+              "{projectRoot}/**/*.go",
+              "{workspaceRoot}/go.mod",
+              "{workspaceRoot}/go.sum",
+              "{workspaceRoot}/go.work",
+              "{workspaceRoot}/go.work.sum"
+            ],
+            "metadata": {
+              "technologies": [
+                "go"
+              ],
+              "description": "Generates Go source code files",
+              "help": {
+                "command": "go help generate",
+                "example": {
+                  "options": {
+                    "args": [
+                      "./..."
+                    ]
+                  }
+                }
+              }
+            },
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          }
+        },
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "pkg/grpc-client",
+        "tags": [],
+        "implicitDependencies": []
+      }
+    },
     "go": {
       "name": "go",
       "type": "lib",
@@ -1757,7 +1890,19 @@
         "type": "static"
       }
     ],
-    "bff-svc": [],
+    "bff-svc": [
+      {
+        "source": "bff-svc",
+        "target": "go",
+        "type": "static"
+      },
+      {
+        "source": "bff-svc",
+        "target": "grpc-client",
+        "type": "static"
+      }
+    ],
+    "grpc-client": [],
     "go": [],
     "proto": [],
     "npm:@emnapi/core": [
@@ -3193,5 +3338,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1786903998332
+  "computedAt": 1786957203835
 }

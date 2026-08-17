@@ -1,18 +1,29 @@
 {
   "run": {
-    "command": "nx s user-svc",
-    "startTime": "2026-08-16T18:13:18.437Z",
-    "endTime": "2026-08-16T18:17:38.817Z",
+    "command": "nx run-many --target=serve --projects=user-svc,bff-svc --parallel=2",
+    "startTime": "2026-08-17T09:00:04.204Z",
+    "endTime": "2026-08-17T09:11:14.023Z",
     "inner": false
   },
   "tasks": [
+    {
+      "taskId": "bff-svc:serve",
+      "target": "serve",
+      "projectName": "bff-svc",
+      "hash": "9745044334978146933",
+      "startTime": "2026-08-17T09:00:04.216Z",
+      "endTime": "2026-08-17T09:11:13.874Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
     {
       "taskId": "user-svc:serve",
       "target": "serve",
       "projectName": "user-svc",
       "hash": "2274830281494221820",
-      "startTime": "2026-08-16T18:13:18.448Z",
-      "endTime": "2026-08-16T18:17:38.796Z",
+      "startTime": "2026-08-17T09:00:04.216Z",
+      "endTime": "2026-08-17T09:11:13.886Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1

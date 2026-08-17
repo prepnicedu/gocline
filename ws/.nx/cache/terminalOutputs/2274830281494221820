@@ -1,0 +1,6 @@
+> nx run user-svc:serve
+
+Executing command: go run .
+2026/08/17 09:00:11 application started on port: 50051
+i 2026/08/17 09:11:13 closing db connection
+2026/08/17 09:11:13 Server gracefully stopped.
