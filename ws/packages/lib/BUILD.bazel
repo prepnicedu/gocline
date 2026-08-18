@@ -1,0 +1,49 @@
+load("@aspect_rules_js//js:defs.bzl", "js_library")
+load("@aspect_rules_swc//swc:defs.bzl", "swc")
+load("@aspect_rules_ts//ts:defs.bzl", "ts_config", "ts_project")
+load("@npm//:defs.bzl", "npm_link_all_packages")
+
+npm_link_all_packages(name = "node_modules")
+
+ts_project(
+    name = "lib",
+    srcs = [
+        "src/components/ui/button.tsx",
+        "src/index.ts",
+        "src/lib/utils.ts",
+    ],
+    declaration = True,
+    transpiler = swc,
+    declaration_map = True,
+    preserve_jsx = False,
+    source_map = True,
+    tsconfig = ":tsconfig",
+    deps = [
+        ":node_modules/@base-ui/react",
+        ":node_modules/@types/react",
+        ":node_modules/class-variance-authority",
+        ":node_modules/clsx",
+        ":node_modules/react",
+        ":node_modules/tailwind-merge",
+    ],
+)
+
+js_library(
+    name = "pkg",
+    srcs = [
+        "package.json",
+        # "src/styles/styles.css",
+    ]+ glob(["src/**/*"]),
+    visibility = ["//:__pkg__"],
+    # deps = [":lib"],
+    deps = [
+        ":lib",
+        ":node_modules", # <-- Fixes tailwind resolution
+    ],
+)
+
+ts_config(
+    name = "tsconfig",
+    src = "tsconfig.json",
+    visibility = [":__subpackages__"],
+)

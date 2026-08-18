@@ -1,0 +1,8 @@
+load("@rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "http-server",
+    srcs = ["http.go"],
+    importpath = "gocline.com/ws/pkg/core/http-server",
+    visibility = ["//visibility:public"],
+)

@@ -1,0 +1,20 @@
+load("@rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "internal",
+    srcs = [
+        "domain.go",
+        "repository.go",
+        "service.go",
+    ],
+    importpath = "gocline.com/ws/services/user-svc/internal",
+    visibility = ["//services/user-svc:__subpackages__"],
+    deps = [
+        "//gen/go/user/v1:user",
+        "@build_buf_go_protovalidate//:protovalidate",
+        "@org_golang_google_grpc//codes",
+        "@org_golang_google_grpc//status",
+        "@org_mongodb_go_mongo_driver_v2//bson",
+        "@org_mongodb_go_mongo_driver_v2//mongo",
+    ],
+)

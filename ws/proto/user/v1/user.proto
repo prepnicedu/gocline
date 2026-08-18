@@ -1,0 +1,22 @@
+// /workspaces/gocline/ws/proto/user/v1/user.proto
+syntax = "proto3";
+
+package user.v1;
+
+import "buf/validate/validate.proto";
+
+message CreateUserRequest{
+    string name = 1 [(buf.validate.field).string = {
+        min_len: 1,
+        max_len:32,
+    }];
+}
+
+message CreateUserResponse{
+    string id = 1;
+    string name = 2;
+}
+
+service UserService{
+    rpc CreateUser(CreateUserRequest) returns (CreateUserResponse);
+}

@@ -1,0 +1,12 @@
+load("@rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "userv1connect",
+    srcs = ["user.connect.go"],
+    importpath = "gocline.com/ws/gen/go/user/v1/userv1connect",
+    visibility = ["//visibility:public"],
+    deps = [
+        "//gen/go/user/v1:user",
+        "@com_connectrpc_connect//:connect",
+    ],
+)
