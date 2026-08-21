@@ -1,0 +1,28 @@
+load("@rules_go//go:def.bzl", "go_binary", "go_library")
+load("//bazel/oci:go_image.bzl", "go_image")
+
+go_library(
+    name = "bff-svc_lib",
+    srcs = ["main.go"],
+    importpath = "example.com/my_project/services/bff-svc",
+    visibility = ["//visibility:private"],
+    deps = [
+        "//gen/go/product/v1:product",
+        "//gen/go/product/v1/productv1connect",
+        "//pkg/core",
+        "//services/bff-svc/service",
+        "@com_connectrpc_connect//:connect",
+        "@com_connectrpc_validate//:validate",
+    ],
+)
+
+go_binary(
+    name = "bff-svc",
+    embed = [":bff-svc_lib"],
+    visibility = ["//visibility:public"],
+)
+
+go_image(
+    name = "image",
+    binary = "bff-svc",
+)

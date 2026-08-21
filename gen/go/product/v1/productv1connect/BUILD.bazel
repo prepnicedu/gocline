@@ -1,0 +1,12 @@
+load("@rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "productv1connect",
+    srcs = ["product.connect.go"],
+    importpath = "example.com/my_project/gen/go/product/v1/productv1connect",
+    visibility = ["//visibility:public"],
+    deps = [
+        "//gen/go/product/v1:product",
+        "@com_connectrpc_connect//:connect",
+    ],
+)

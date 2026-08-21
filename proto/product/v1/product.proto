@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package product.v1;
+
+import "buf/validate/validate.proto";
+
+message CreateProductRequest {
+  string title = 1 [(buf.validate.field).string = {
+    min_len: 1
+    max_len: 32
+  }];
+
+  string description = 2 [(buf.validate.field).string = {
+    min_len: 1
+    max_len: 50
+  }];
+
+  string product_id = 3 [(buf.validate.field).string = {
+    min_len: 1
+    max_len: 30
+  }];
+
+  int32 qty = 4 [(buf.validate.field).int32 = {gt: 0}];
+}
+
+message CreateProductResponse {
+  string id = 1;
+  Product product = 2;
+}
+
+message Product {
+  string title = 1;
+  string description = 2;
+  string product_id = 3;
+  int32 qty = 4;
+}
+
+service ProductService {
+  rpc CreateProduct(CreateProductRequest) returns (CreateProductResponse);
+}

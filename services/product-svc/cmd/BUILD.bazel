@@ -1,0 +1,14 @@
+load("@rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "cmd",
+    srcs = ["db.go"],
+    importpath = "example.com/my_project/services/product-svc/cmd",
+    visibility = ["//visibility:public"],
+    deps = [
+        "//pkg/core",
+        "@org_mongodb_go_mongo_driver_v2//mongo",
+        "@org_mongodb_go_mongo_driver_v2//mongo/options",
+        "@org_mongodb_go_mongo_driver_v2//mongo/readpref",
+    ],
+)

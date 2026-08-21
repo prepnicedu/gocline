@@ -1,0 +1,13 @@
+load("@rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "service",
+    srcs = ["product-svc.go"],
+    importpath = "example.com/my_project/services/bff-svc/service",
+    visibility = ["//visibility:public"],
+    deps = [
+        "//gen/go/product/v1:product",
+        "//gen/go/product/v1/productv1connect",
+        "@com_connectrpc_connect//:connect",
+    ],
+)
